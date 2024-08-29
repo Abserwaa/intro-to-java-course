@@ -52,6 +52,7 @@ public LinkedList<Integer> useLinkedList() {
     //  - then add 5, 6, 8, 2, 9 to the the list
     //  - add another 2 as the last element of the list
     //  - add 4 as the 3rd element of the list
+
     //  - invoke the method element() on the list and print the result on the screen
     //  - return the list
     throw new RuntimeException("Not implemented");

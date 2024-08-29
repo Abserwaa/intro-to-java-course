@@ -70,6 +70,7 @@ public class CollectionsExercises {
     public HashMap<Integer, String> useHashMap() {
         //  create an empty hash map
         HashMap<Integer, String> hash = new HashMap<>();
+        
          //  - add {1, TypeScript} entry to the map
         hash.put(1,"TypeScript");
          //  - add {2, Kotlin} entry to the map
