@@ -1,7 +1,6 @@
 package com.cbfacademy.strings;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
 
 public class App {
 
@@ -23,13 +22,12 @@ public class App {
     
 
     public static String format(String item, int quantity, double price) {
-        // TODO: Write code to return a string formatted as follows: "Item: [item]. Price: £[price]. Quantity: [quantity]". The price should be formatted to two decimal places, e.g. 99.99
-        String lineItem = format("Apple iPhone 15 Pro", 47, 1199.99);
+        // Write code to return a string formatted as follows: "Item: [item]. Price: £[price]. Quantity: [quantity]". The price should be formatted to two decimal places, e.g. 99.99 
 
         return String.format("Item: %s. Price: £%.2f. Quantity: %d", item, price, quantity);
     }
 }
-}
+
 
         
 
